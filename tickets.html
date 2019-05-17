@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400" rel="stylesheet">
+</head>
+
+<body>
+    <div class="topnav">
+        <nav>
+            <a href="index.html">Flights</a>
+            <a href="#news">Tickets</a>
+            <a href="signup.html"><img id="user" src="user_icon.png"></a>
+            <a href="#about">About</a>
+        </nav>
+    </div>
+    <section class="main">
+        <div class="story">
+            <form id="cart" class="row" oninput="calculate()">
+                Options:
+                <select name="option" id="option">
+                    <option value="999.99">Czech Republic</option>
+                    <option value="1099.99">Hungary</option>
+                    <option value="1399.99">Romania</option>
+                </select>
+                Days: <input id="time" type="number" value="12" min="0">
+                Age: <input id="old" type="number" value="0" min="1" max="99">
+                Result: <output id="result" name="out" for="option time"></output>
+                <input type="submit" value="Submit" class="button">
+            </form>
+    </section>
+    <script src="java.js">
+    </script>
+    </div>
+    </section>
+</body>
+
+</html>

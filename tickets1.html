@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="style.css" type="text/css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>Index</title>
+</head>
+
+<body>
+    <main>
+        <nav>
+            <ul class=menu>
+                <li class="buttons"><a href="index.html"><img src="plane.png" class="user" </a> </li> <li
+                            class="buttons"><a href="tickets1.html">Tickets</a></li>
+                <li class="buttons"><a href="#"><img src="user_icon.png" class="user"></a></li>
+                <li class="buttons"><a href="#">About</a></li>
+            </ul>
+        </nav>
+        <div class="trapez"></div>
+        </div>
+        <img src="https://images.wsj.net/im-18464?width=620&aspect_ratio=1.5" class="plane" />
+        <div class="container">
+            <div class="subcontainer">
+                <h1 class="title">Airport</h1>
+                <span class="subtitle"><a href="#tickets">Tickets</a></span>
+            </div>
+        </div>
+        <div id="descriptions">
+            <h1 class="title1">Czech Republic</h1>
+            <p class="description">opis</p>
+            <div class="country-description">
+                <img src="https://s3-eu-west-1.amazonaws.com/uploads.services.internations.org/files/2018/11/15182500/ccb37af1f2387347ac6b60d7059e33b42b3aa4d68c6d1bbf49f3fdc5550fccae-1200x585.jpg"
+                    class="country" />
+            </div>
+            <h1 class="title1">Czech Republic</h1>
+            <p class="description">opis</p>
+            <div class="country-description">
+                <img src="https://s3-eu-west-1.amazonaws.com/uploads.services.internations.org/files/2018/11/15182500/ccb37af1f2387347ac6b60d7059e33b42b3aa4d68c6d1bbf49f3fdc5550fccae-1200x585.jpg"
+                    class="country" />
+            </div class="country-description">
+            <h1 class="title1">Czech Republic</h1>
+            <p class="description">opis</p>
+            <div class="country-description">
+                <img src="https://s3-eu-west-1.amazonaws.com/uploads.services.internations.org/files/2018/11/15182500/ccb37af1f2387347ac6b60d7059e33b42b3aa4d68c6d1bbf49f3fdc5550fccae-1200x585.jpg"
+                    class="country" />
+            </div>
+            </div>
+        
+        <div class="tickets">
+            <form id="cart" class="row" oninput="calculate()">
+                Options:
+                <select name="option" id="option">
+                    <option value="999.99">Czech Republic</option>
+                    <option value="1099.99">Hungary</option>
+                    <option value="1399.99">Romania</option>
+                </select>
+                Days: <input id="time" type="number" value="12" min="0">
+                Age: <input id="old" type="number" value="0" min="1" max="99">
+                Result: <output id="result" name="out" for="option time"></output>
+                <input type="submit" value="Submit" class="button">
+            </form>
+        </div>
+        <script src="java.js">
+        </script>
+    </main>
+    <footer>
+        <p>All rights reserved &copy;</p>
+        Autor: <address>Tomek Kowalczyk</address>
+    </footer>
+</body>
+
+</html>
